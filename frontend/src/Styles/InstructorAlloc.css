@@ -1,0 +1,94 @@
+.instructor-alloc {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #001f7f;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #001f7f;
+}
+
+.ins-alloc {
+   color: #001f7f;
+}
+
+.instructor-alloc h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #001f7f;
+}
+
+.alloc-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.alloc-form input[type="text"],
+.alloc-form input[type="date"],
+.alloc-form input[type="time"],
+.alloc-form select {
+  width: 90%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1.5px solid #bdc3c7;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.alloc-form input[type="text"]:focus,
+.alloc-form input[type="date"]:focus,
+.alloc-form input[type="time"]:focus,
+.alloc-form select:focus {
+  border-color: #001f7f;
+  outline: none;
+  box-shadow: 0 0 5px #001f7f(41, 128, 185, 0.5);
+}
+
+.alloc-form button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 25px;
+  background-color: #0836c2;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alloc-form button:hover {
+  background-color: #001f7f;
+}
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.go-back-button {
+ margin-bottom: 25px;
+  background-color: #eee;
+  border: none;
+  padding: 8px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #333;
+}
+
+.go-back-button:hover {
+  background-color: #ddd;
+}

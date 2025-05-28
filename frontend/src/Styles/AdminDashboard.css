@@ -1,0 +1,222 @@
+/* .admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f7f;
+  color: white;
+  padding: 10px 30px;
+}
+
+.left-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.school-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-logout {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #dbe9f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-screen {
+  text-align: center;
+  color: #0a1e55;
+}
+
+.welcome-logo-container {
+  max-width: 800px;
+}
+
+.welcome-logo {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.welcome-heading {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #001f7f;
+}
+
+.welcome-subheading {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #3a4b7a;
+}
+
+.card-options {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.user, .application, .instructor, .scheduling{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.user:hover, .application:hover, .instructor:hover, .scheduling:hover {
+  background-color: #e0efff;
+  transform: scale(1.05);
+}
+
+.user, .application, .instructor, .scheduling  {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2b2b2b;
+  text-align: center;
+  line-height: 1.2;
+}
+
+ */
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f7f;
+  color: white;
+  padding: 25px 60px;
+}
+
+.left-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-logo {
+  height: 70px;
+}
+
+.school-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.right-logout {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 60px;
+  background-color: #dbe9f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-screen {
+  text-align: center;
+  color: #0a1e55;
+}
+
+.welcome-logo-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.welcome-logo {
+  height: 240px;
+  margin-bottom: 40px;
+}
+
+.welcome-heading {
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #001f7f;
+}
+
+.welcome-subheading {
+  font-size: 32px;
+  margin-bottom: 60px;
+  color: #3a4b7a;
+}
+
+.card-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.user, .application, .instructor, .scheduling {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2b2b2b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.user:hover, .application:hover, .instructor:hover, .scheduling:hover {
+  background-color: #e0efff;
+  transform: scale(1.08);
+}
+
+

@@ -1,0 +1,38 @@
+.inquiry-list-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.inquiry-list-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.inquiry-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.inquiry-table th,
+.inquiry-table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.inquiry-table th {
+  background-color: #f0f0f0;
+}
+
+.status.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.status.confirmed {
+  color: green;
+  font-weight: bold;
+}

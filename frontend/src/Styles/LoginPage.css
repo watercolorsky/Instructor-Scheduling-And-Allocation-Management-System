@@ -1,0 +1,130 @@
+/* Full page wrapper */
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url('../car.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Fixed top header */
+.login-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 34, 85, 0.95);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Header text */
+.school-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Container behind login form */
+.background-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(5, 42, 145, 0.5);
+  margin-top: 90px;
+  /* space for fixed header */
+  padding: 2rem;
+  height: calc(100vh - 90px);
+  /* adjust for header height */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Login box */
+.login-container {
+  background: rgb(211, 217, 233);
+  padding: 3rem;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 1rem solid rgba(162, 184, 246, 0.655);
+}
+
+/* Logo and title */
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo {
+  width: 45%;
+  height: auto;
+}
+
+.system-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+  color: rgba(0, 34, 85, 0.95);
+  
+}
+
+/* Login form layout */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs */
+.login-form input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Button */
+.login-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #3a7bd5;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Show password toggle */
+.show-password {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.show-password input[type="checkbox"] {
+  margin-right: 0.5rem;
+}

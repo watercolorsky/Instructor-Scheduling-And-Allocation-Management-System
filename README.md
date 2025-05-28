@@ -2,6 +2,7 @@
 
 Instructor Scheduling and Allocation Management System 
 
+BSIT-3A
 Group Members: BAMBA Jann Mevric,
                HIPOL Jose Mari,
                LACHICA Ron Nathaniel,
